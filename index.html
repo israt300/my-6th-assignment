@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Janala</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with Solid Background</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <!-- navber section start  -->
+        <nav class="fixed top-0 left-0 w-full bg-[#fcf9f9] shadow-sm flex items-center justify-between px-10 border-b-2 border-[#17171720] py-4 z-50">
+            <div class="flex justify-center items-center">
+                <h2 class="font-bold text-xl">English</h2>
+                <img class="w-[40px]" src="assets/logo.png" alt="">
+                <h2 class="font-bold">জানালা</h2>
+            </div>
+            
+            <div class="flex gap-4">
+                
+                <div class="w-[86px] h-[40px] group flex items-center gap-2 px-2 py-2 border-2 border-[#422AD5] rounded-lg transition-all duration-300 hover:bg-[#422AD5]">
+                    <img src="assets/fa-circle-question.png" class=" transition-all duration-300 group-hover:invert group-hover:brightness-0 group-hover:saturate-100" alt="">
+                    <button class="font-semibold text-[#422AD5]  group-hover:text-white">FAQ</button>
+                </div>
+    
+                <div class="w-[95px] h-[40px] group flex items-center gap-2 px-2 py-2 border-2 border-[#422AD5] rounded-lg transition-all duration-300 hover:bg-[#422AD5]">
+                    <img src="assets/fa-book-open.png" class=" transition-all duration-300 group-hover:invert group-hover:brightness-0 group-hover:saturate-100" alt="">
+                    <button class="font-semibold text-[#422AD5]  group-hover:text-white">Learn</button>
+                </div>
+    
+                <div class="w-[102px] h-[40px] group flex items-center gap-2 px-2 py-2 border-2 border-[#422AD5] rounded-lg transition-all duration-300 hover:bg-[#422AD5]">
+                    <img src="assets/fa-arrow-right-from-bracket.png" class=" transition-all duration-300 group-hover:invert group-hover:brightness-0 group-hover:saturate-100" alt="">
+                    <button class= "font-semibold text-[#422AD5] group-hover:text-white">Logout</button>
+                </div>
+            </div>
+        </nav>
+    <!-- navber section end  -->
+
+    <!-- banner section start  -->
+     <section class=" gap-20 mt-10  flex items-center justify-center">
+        <div class="">
+            <h1 class="font-bold text-[48px]"><span class="text-[#00BCFF]">English</span> is Easy!!</h1>
+            <h3 class="font-bold text-[#646469] text-[14px]">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা <br> আপনার  দক্ষতা বাড়াতে  চান, আমাদের Interactive Lessons আপনাকে নিয়ে <br> যাবে অন্য একটি Level এ</h3>
+            <div class="border w-[300px] p-2 mt-2 rounded-sm" ><input class="w-full outline-none" type="text" placeholder="Enter Your Name"></div>
+            <div class="border w-[300px] p-2 mt-2 rounded-sm"><input class="w-full outline-none" type="password" placeholder="Enter Login Code(123456)"></div>
+            <button class="btn w-[102px] mt-2 bg-[#3D26C7] text-white  ">Get Started</button>
+        </div>
+        <div>
+            <img class="w-[600px] h-[599px] mr-10" src="assets/hero-student.png" alt="">
+        </div>
+     </section>
+     <!-- banner section end  -->
+    </header>
+    <main>
+        <section>
+            <!-- button section  -->
+        </section>
+        <section>
+            <!-- question section  -->
+            <h1 class="flex items-center justify-center font-bold text-[34px]"><span class="text-[#00BCFF]">Frequently </span> Asked Questions</h1>
+            <div class="relative border p-4 mt-4 ml-15 w-11/12 rounded-lg shadow-md bg-white">
+                <button class="absolute top-2 right-2 p-2 w-8 h-8 incrementBtn">+</button>
+                <button class="absolute top-2 right-2 p-2 w-8 h-8 decrementBtn hidden">−</button>
+                <p>1. The difference between var, let, and const ?</p>
+                <p class="text-[#62748E] mt-2 hidden secondPara">var: Function-scoped and can be redeclared.let: Block-scoped and cannot be redeclared.const: Block-scoped and its value cannot be changed once assigned.</p>
+            </div>
+        
+            <div class="relative border mt-2 p-4 ml-15  w-11/12 rounded-lg shadow-md bg-white">
+                <button class="absolute top-2 right-2 p-2 w-8 h-8 incrementBtn ">+</button>
+                <button class="absolute top-2 right-2 p-2 w-8 h-8 decrementBtn  hidden">−</button>
+                <p>2. The difference between map(), forEach(), and filter() ?</p>
+                <p class="text-[#62748E] mt-2 hidden secondPara">map(): Applies a function on each item of the array and creates a new array.forEach(): Runs a function on each item but doesn't return anything.filter(): Creates a new array with only the items that meet a condition.</p>
+            </div>
+        
+            <div class="relative border p-4 mt-2 ml-15 w-11/12  rounded-lg shadow-md bg-white">
+                <button class="absolute top-2 right-2 p-2 w-8 h-8 incrementBtn">+</button>
+                <button class="absolute top-2 right-2 p-2 w-8 h-8 decrementBtn hidden">−</button>
+                <p>3. Explain arrow functions and how they are different from regular functions ?</p>
+                <p class="text-[#62748E] mt-2 hidden secondPara">Arrow functions are a shorter syntax for writing functions in JavaScript, using the => operator. They don't have their own this, so they inherit it from the surrounding context. In contrast, regular functions have their own this, which can lead to different behavior when used inside objects or callbacks.</p>
+            </div>
+        
+            <div class="relative border p-4 mt-2 ml-15 w-11/12 rounded-lg shadow-md bg-white">
+                <button class="absolute top-2 right-2 p-2 w-8 h-8 incrementBtn rounded-full">+</button>
+                <button class="absolute top-2 right-2 p-2 w-8 h-8 decrementBtn hidden">−</button>
+                <p>4. How JavaScript Promises work?</p>
+                <p class="text-[#62748E] mt-2 hidden secondPara">JavaScript Promise is an operation that will complete sometime in the future. When the operation is successful, we use .then(), and if there is an error or failure, we handle it with .catch(). It helps in managing asynchronous tasks more easily.</p>
+            </div>
+        
+            <div class="relative border p-4 mt-2 ml-15 w-11/12 rounded-lg shadow-md bg-white">
+                <button class="absolute top-2 right-2 p-2 w-8 h-8 incrementBtn">+</button>
+                <button class="absolute top-2 right-2 p-2 w-8 h-8 decrementBtn hidden">−</button>
+                <p>5. How closures work in JavaScript?</p>
+                <p class="text-[#62748E] mt-2 hidden secondPara">Closures in JavaScript occur when a function retains access to its lexical scope, even after the outer function has finished executing. This means that an inner function can remember and access variables from its outer function, even after the outer function has returned.</p>
+            </div>
+        
+        </section>
+    </main>
+    <footer class="mt-20 border-t-2">
+        <div class="flex items-center justify-between p-4 mt-4 ml-15 w-11/12">
+            <div>
+                <div class="flex items-center">
+                    <h2 class="font-bold text-[20px]">English</h2>
+                    <img class="w-8 h-8" src="assets/logo.png" alt="">
+                    <h2 class="font-bold text-[20px]">জানালা</h2>
+                </div>
+                <h4 class="mt-2 text-[16px] font-semibold">ইংরেজি শিখুন সহজে</h4>
+                <p class="text-[14px]">Providing ED-Tech Applications since 2025</p>
+            </div>
+            <div>
+                <p class="flex items-center justify-center">Follow us</p>
+                <div class="flex items-center gap-1 mt-2">
+                    <img src="assets/fb-thumb.png" alt="">
+                    <img src="assets/youtube-thumb.png" alt="">
+                    <img src="assets/instagram-thumb.png" alt="">
+                    <img src="assets/github-thumb.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
+
+    
+</body>
+</html>
