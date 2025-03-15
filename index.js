@@ -25,3 +25,18 @@ document.querySelectorAll('.relative').forEach(div => {
         decrementBtn.classList.add("hidden");
     });
   });
+
+//   question section 
+
+const toggleBtn = document.getElementById('toggleBtn');
+const fqSection = document.getElementById('fqSection');
+
+fqSection.style.display = 'none';
+
+toggleBtn.addEventListener('click', () => {
+    if (fqSection.style.display === 'none') {
+        fqSection.style.display = 'block';
+    } else {
+        fqSection.style.display = 'none';
+    }
+});
